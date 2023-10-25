@@ -1,0 +1,81 @@
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ man cut
+bash: man: command not found
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ sort listofnames.txt > sorted_names.txt
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ grep bottle alice.txt | sort -u
+However, this bottle was NOT marked 'poison,' so Alice ventured to taste
+Luckily for Alice, the little magic bottle had now had its full effect,
+before,' said Alice,) and round the neck of the bottle was a paper
+bottle that stood near the looking-glass. There was no label this time
+down the bottle, saying to herself 'That's quite enough--I hope I shan't
+drunk half the bottle, she found her head pressing against the ceiling,
+forgotten that, if you drink much from a bottle marked 'poison,' it is
+something out of a bottle. They all made a rush at Alice the moment she
+this bottle does. I do hope it'll make me grow large again, for really
+time she found a little bottle on it, ('which certainly was not here
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ grep bottle alice.txt | sort -u > sorted_alice.txt
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ ls ../cool_project/
+ls: cannot access '../cool_project/': No such file or directory
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ ls ../listofnames.txt/
+ls: cannot access '../listofnames.txt/': No such file or directory
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ ls ../Documents/
+'3ds Max 2023'/               'My Videos'@            clip50030-0040.mp4
+ Ableton/                      Processing/            cool_project/
+ Adobe/                        StarCraft/             desktop.ini
+ Dash/                         Student/               github/
+ Derivative/                  'Unreal Projects'/      listofnames.txt
+ FeedbackHub/                 'Visual Studio 2019'/   listofnames_copy.txt
+'Inventor Interoperability'/   Zoom/                  max10-23.png
+ MB/                           alice.txt              sorted_alice.txt
+ MadMapper/                    clip20010-0020.mp4     sorted_names.txt
+'Max 8'/                       clip30010-0020.mp4     steamvr/
+'Megascans Library'/           clip40020-0030.mp4     temp/
+'My Music'@                    clip50001-0010.mp4
+'My Pictures'@                 clip50020-0030.mp4
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ ls ./Documents/
+ls: cannot access './Documents/': No such file or directory
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ ls M*
+'My Music'@  'My Pictures'@  'My Videos'@
+
+MB:
+2024/  Modules/
+
+MadMapper:
+FX/  Generators/  Materials/  Modules/
+
+'Max 8':
+ Collections/  'Max for Live Devices'/   Palettes/   Prototypes/   Styles/
+ Library/       Packages/                Projects/   Snippets/     Templates/
+
+'Megascans Library':
+Downloaded/
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ ls *.txt
+alice.txt        listofnames_copy.txt  sorted_names.txt
+listofnames.txt  sorted_alice.txt
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ mkdir texts
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$ mv *.txt texts/
+
+itpstudent@Stealth01 MINGW64 ~/Documents
+$
